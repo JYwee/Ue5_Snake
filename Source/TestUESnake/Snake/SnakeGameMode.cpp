@@ -23,7 +23,8 @@ void ASnakeGameMode::Tick(float deltatime)
 	}
 
 	if (mIsGameEnd == true) {
-		UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
+		//End Game
+		//UKismetSystemLibrary::QuitGame(GetWorld(), UGameplayStatics::GetPlayerController(GetWorld(), 0), EQuitPreference::Quit, true);
 	}
 }
 
